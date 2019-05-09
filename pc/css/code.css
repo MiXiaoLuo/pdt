@@ -1,0 +1,263 @@
+.code-ml{
+    display: block;
+    margin: 0 auto;
+}
+
+/*公用侧边 推荐作者*/
+.alert-ml{
+    font-size: 16px;
+    padding-top: 5px;
+}
+.alert-news-ml{
+    font-size: 12px;
+    padding-top:10px;
+}
+
+/*公用侧边 热门文章*/
+.hot-ml a{
+    font-size: 12px;
+    color: #7d7f84;
+}
+.hot-ml a:hover{
+    color: #85a3ef;
+}
+.hot-ml{
+    padding: 5px 0;
+}
+.h4-ml{
+    margin-bottom: 5px;
+}
+
+/*公用头部 页面logo*/
+.logo-ml{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+/*文章详情 评论框*/
+.text-ml{
+    width: 700px;
+    height: 80px;
+    resize:none;
+}
+/*公用底部 二维码*/
+.footer-public-ml{
+    width: 150px;
+}
+
+/*公用侧边二维码*/
+.qr-ml{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*学习提升 课程*/
+.one-ml{
+    background: #F2F4F5;
+    padding: 50px 0;
+}
+.tow-ml{
+    background: #fff;
+    padding: 50px 0;
+}
+.course-ml{
+    width: 350px;
+    height: 350px;
+    background: #fff;
+    box-shadow: 0 0 8px #333;
+    border-radius: 3px;
+    position: absolute;
+}
+.course-image-ml{
+    width: 100%;
+    height: 140px;
+    background-image: url("https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3441134103,2392438462&fm=26&gp=0.jpg");
+    background-size: 350px 140px;
+    color: #fff;
+}
+.course-image-ml h4{
+    margin: 0;
+    padding: 50px 0 10px 20px;
+    font-size: 18px;
+    color: #fff;
+}
+.course-image-ml span{
+    padding-left: 20px;
+    font-size: 12px;
+}
+.course-text-ml{
+    padding: 25px 20px;
+    color: #000;
+}
+.course-text-ml h4{
+    margin: 0;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+.course-text-ml span{
+    display: block;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.course-btn-ml{
+    display: block;
+    background: #fff;
+    border: 1px #00A7EB solid;
+    color: #00A7EB;
+    padding: 5px 10px;
+    width: 100px;
+    margin: 0 auto;
+}
+.course-animate-ml{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    float: left;
+    margin-right: 40px;
+}
+
+/*课程详情 头部标题*/
+.learning-image-ml{
+    width:100%;
+    height:230px;
+    background-size: 100% 230px;
+    background-image: url('https://vip.qidianla.com/assets/images/web3.0/ztkc/webcoursedetail_bj@2x.png');
+}
+.learning-image-text-ml{
+    margin-top: 10px;
+    color: #fff;
+    overflow: hidden;
+}
+.learning-image-text-ml span{
+    display: block;
+    font-size: 12px;
+    padding: 20px 0;
+}
+.learning-image-text-ml h3{
+    color: #fff;
+    font-size: 22px;
+    margin: 10px 0;
+}
+.learning-image-text-ml p{
+    color: #fff;
+    font-size: 12px;
+    margin: 10px 0;
+}
+.learning-box-ml{
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -105px;
+    left: 0;
+    box-shadow: 0 0 5px #333;
+}
+.learning-title-ml{
+    text-align: center;
+    font-size: 26px;
+    padding: 20px 0;
+}
+
+/*课程详情 导师*/
+.mentor-ml{
+    box-shadow: 0 0 5px #333;
+    margin-top: 35px;
+    padding: 20px;
+}
+.mentor-ml p{
+    font-size: 12px;
+    text-align: justify;
+    padding-top: 5px;
+    text-indent: 2em;
+}
+
+/*课程详情 学员*/
+.students-ml,
+.laz-qr-ml{
+    box-shadow: 0 0 5px #333;
+    margin-top: 20px;
+    padding: 20px;
+    height: 230px;
+}
+.students-ml h3,
+.laz-qr-ml h3{
+    font-size: 18px;
+    border-bottom: 1px #D1CECD solid;
+    padding-bottom: 5px;
+}
+.students-ml div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+}
+.students-ml div{
+    width: 50px;
+    height: 67px;
+    float: left;
+    margin: 0 15px 10px 0;
+}
+.students-ml div span{
+    display: block;
+    line-height: 12px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/*课程详情 二维码*/
+.laz-qr-ml div{
+    display: inline-block;
+    margin: 10px 30px;
+}
+.laz-qr-ml div img{
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.laz-qr-ml div span{
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+
+/*课程详情 白板*/
+.whiteboard-ml{
+    margin-left: 25px;
+}
+.whiteboard-ml li{
+    float: left;
+    margin: 23px 20px;
+    border-right: 2px #A0A0A0 solid;
+    padding-right: 30px;
+    text-align: center;
+}
+.whiteboard-ml li:last-child{
+    border-right: none;
+}
+.whiteboard-ml li p{
+    font-size: 12px;
+    font-family: '微软雅黑';
+    margin: 0;
+}
+.whiteboard-ml li p span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.price-ml{
+    color: #f00;
+    font-size: 30px;
+    margin: 0 50px;
+    float: left;
+    line-height: 100px;
+}
+.price-btn-ml{
+    background: #FF5E5E;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin: 20px 50px;
+}
+
