@@ -1,0 +1,50 @@
+<!-- 导航 -->
+<header class="nav">
+
+    <div class="nav__holder nav--sticky">
+        <div class="container relative">
+            <div class="flex-parent">
+                <img src="img/logo.png" alt="" class="logo-ml">
+                <!-- 头部导航 -->
+                <nav class="flex-child nav__wrap d-none d-lg-block">
+                    <ul class="nav__menu">
+
+                        <li class="active">
+                            <a href="index.html">首页</a>
+                        </li>
+
+                        <li class="nav__dropdown">
+                            <a href="search-results.html">最新文章</a>
+                        </li>
+
+                        <li class="nav__dropdown">
+                            <a href="categories.html">热门文章</a>
+                        </li>
+
+                        <li class="nav__dropdown">
+                            <a href="about.html">学习提升</a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;">应用工号</a>
+                        </li>
+
+                    </ul>
+                </nav> <!-- end 头部导航 -->
+
+            </div>
+        </div>
+    </div>
+</header>  <!-- end 导航 -->
+
+<script>
+    $(document).ready(function(){
+        $(".nav__menu>li>a").each(function(){
+            $this = $(this);
+            if($this[0].href === String(window.location)){
+                $(".nav__menu>li").removeClass("active");
+                $this.parent().addClass("active");
+            }
+        });
+    });
+</script>
